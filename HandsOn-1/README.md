@@ -1,4 +1,4 @@
-# Docker Flask Hands-On Workshop
+# Docker Flask Hands-On
 
 Welcome to the Docker hands-on workshop! This project demonstrates a simple Flask web application that is containerized using Docker.  
 
@@ -150,11 +150,3 @@ By completing this hands-on exercise, students will:
 * Encourage experimenting with environment variables using `-e` at runtime.
 
 ---
-
-This README is now a **complete guide** for students to:
-
-1. Add `contact.html`
-2. Update `app.py`
-3. Modify Dockerfile for the email environment variable
-4. Rebuild and run the Docker image
-5. Verify changes in the browser
