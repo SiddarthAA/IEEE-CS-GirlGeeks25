@@ -1,4 +1,4 @@
-# **Take Away Assignment: Dockerized Quotes & Jokes API**
+# **Take-Away-Assignment: Dockerized Quotes & Jokes API**
 
 ---
 
