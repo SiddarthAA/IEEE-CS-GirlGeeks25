@@ -1,4 +1,4 @@
-# Docker Flask Hands-On
+# **Hands-On: Flask App**
 
 Welcome to the Docker hands-on workshop! This project demonstrates a simple Flask web application that is containerized using Docker.  
 
