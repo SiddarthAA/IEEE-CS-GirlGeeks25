@@ -1,6 +1,6 @@
 # **Containers & Virtualization: Docker Hands-On Workshop**
 
-**Official Repository – GirlGeek25 Workshop**
+**Official Repository – GirlGeek25 Workshop** <br>
 **Organized by IEEE CS Student Chapter | PES University**
 
 ---
@@ -44,12 +44,12 @@ takeawayassignment/      # Independent assignment for hands-on practice
 git clone <repository-url>
 cd <repository-name>
 ```
-
+<br>
 2. **Navigate to the Desired Folder**
 
 * `handson/` – for guided exercises
 * `takeawayassignment/` – for independent assignment
-
+<br>
 3. **Follow Folder README Instructions**
 
 * Build Docker images
@@ -80,5 +80,5 @@ By completing the workshop, participants will:
 
 ---
 
-**© IEEE CS Student Chapter | PES University**
+**© IEEE CS Student Chapter | PES University** <br>
 *Official repository for GirlGeek25 Workshop on Containers & Virtualization: Docker Hands-On*
