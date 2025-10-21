@@ -45,13 +45,13 @@ git clone <repository-url>
 cd <repository-name>
 ```
 <br>
-2. **Navigate to the Desired Folder**
 
+2. **Navigate to the Desired Folder**
 * `handson/` – for guided exercises
 * `takeawayassignment/` – for independent assignment
 <br>
-3. **Follow Folder README Instructions**
 
+3. **Follow Folder README Instructions**
 * Build Docker images
 * Run containers locally
 * Test and interact with applications
