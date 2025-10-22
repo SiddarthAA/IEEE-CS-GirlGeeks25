@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cloud Run Demo - About</title>
+    <style>
+        body {
+            font-family: 'Inter', Arial, sans-serif;
+            background: linear-gradient(135deg, #f0f4ff, #ffffff);
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        .card {
+            background: #ffffff;
+            padding: 60px 40px;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            text-align: center;
+            max-width: 700px;
+        }
+
+        h1 {
+            font-size: 2rem;
+            color: #222;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 1.3rem;
+            color: #007bff;
+            margin-top: 30px;
+        }
+
+        p {
+            font-size: 1.05rem;
+            margin: 10px 0;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        ul {
+            text-align: left;
+            margin: 20px auto;
+            max-width: 500px;
+            line-height: 1.8;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        a {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 12px 26px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+
+        a:hover {
+            background-color: #0056b3;
+            transform: translateY(-2px);
+        }
+
+        footer {
+            margin-top: 40px;
+            font-size: 0.9rem;
+            color: #666;
+        }
+
+        footer strong {
+            color: #111;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>About This App</h1>
+        <p>
+            This demo showcases how a <strong>Flask web application</strong> can be containerized using <strong>Docker</strong> 
+            and deployed to <strong>Google Cloud Run</strong> — a fully managed serverless platform that automatically scales 
+            your containers based on incoming traffic.
+        </p>
+
+        <h2>How It Works</h2>
+        <ul>
+            <li><strong>1. Flask Application:</strong> A lightweight Python web app serves the frontend and backend logic.</li>
+            <li><strong>2. Docker Containerization:</strong> The app is packaged into a Docker image with all its dependencies defined in <code>Dockerfile</code>.</li>
+            <li><strong>3. Deployment:</strong> The container image is pushed to <code>Google Container Registry (GCR)</code> or <code>Artifact Registry</code>.</li>
+            <li><strong>4. Cloud Run:</strong> The image is deployed on Cloud Run, which handles scalability, load balancing, and HTTPS automatically.</li>
+            <li><strong>5. Continuous Integration:</strong> With Cloud Build or GitHub Actions, you can automate deployments directly from source control.</li>
+        </ul>
+
+        <h2>Why Cloud Run?</h2>
+        <p>
+            Cloud Run eliminates the need to manage infrastructure. It offers <strong>auto-scaling</strong>, <strong>pay-per-use billing</strong>, 
+            and supports any language or framework that runs in a container — making it ideal for microservices and modern cloud-native workloads.
+        </p>
+
+        <a href="/">← Back Home</a>
+        <footer>
+            <p>Developed by <strong>IEEE CS Bangalore Chapter</strong> | <strong>PES University</strong></p>
+        </footer>
+    </div>
+</body>
+</html>
+
