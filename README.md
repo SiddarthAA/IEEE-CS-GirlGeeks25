@@ -25,6 +25,7 @@ The workshop is designed to help you:
 ```
 handson/                 # Guided exercises for Docker beginners
 takeawayassignment/      # Independent assignment for hands-on practice
+Cloud/                   # GCP Cloud Run deployment setup
 ```
 
 > Each folder contains its own detailed README explaining setup, instructions, and expected outcomes.
@@ -33,7 +34,7 @@ takeawayassignment/      # Independent assignment for hands-on practice
 
 * **handson/** – Starter Flask web app for guided exercises. Students will learn Docker basics including building images, running containers, and modifying code inside containers.
 * **takeawayassignment/** – Independent assignment where students build a Dockerized Python API (Quotes & Jokes), write a robust Dockerfile, and deploy it locally and on Docker Hub.
-
+* **Cloud/** - Advanced section — build a production-ready Flask app, create a Docker image, and deploy it to Google Cloud Run. Includes deployment commands, **Dockerfile**, and complete setup for testing logs, scaling, and cleanup.
 ---
 
 ## **🚀 Getting Started**
@@ -49,6 +50,7 @@ cd <repository-name>
 2. **Navigate to the Desired Folder**
 * `handson/` – for guided exercises
 * `takeawayassignment/` – for independent assignment
+* `cloud/` - Cloud deployment using Google Cloud Run
 <br>
 
 3. **Follow Folder README Instructions**
